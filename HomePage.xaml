@@ -10,12 +10,15 @@
       Title="itProger app" Height="600" Width="800">
 
     <Grid Background="white">
-        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="images/it.jpg" Margin="272,5,0,0"/>
-        <TextBlock Text="itProger" Margin="377,30,264,495" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black" />
-        <Button Name="button_to_youtube" Content="YouTube канал" Click="Button_to_youtube_Click" HorizontalAlignment="Left" Margin="569,10,0,0" VerticalAlignment="Top" Width="142" Height="31" />
-        <Label Content="Онлайн школа программирования&#xD;&#xA;" HorizontalAlignment="Left" Margin="372,84,0,0" VerticalAlignment="Top" Width="268" Height="31" FontSize="16"/>
-        <Label Content="и сообщество программистов" HorizontalAlignment="Left" Margin="397,105,0,0" VerticalAlignment="Top" Width="185" FontStyle="Italic" Height="23"/>
         <Label Content="Меню" HorizontalAlignment="Left" Margin="37,4,0,0" VerticalAlignment="Top" Width="122" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
         <Button Name="button_to_lessons" Content="Чему мы обучаем" Click="Button_to_lessons_Click" HorizontalAlignment="Left" Margin="26,44,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
+        <Button Name="online_lessons_button"  Content="Онлайн обучение" Click="Online_lessons_button_Click" HorizontalAlignment="Left" Margin="26,103,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
+        <Button Name="contacts_button" Content="Контакты" Click="Contacts_button_Click" HorizontalAlignment="Left" Margin="26,162,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
+        
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="images/it.jpg" Margin="272,5,0,0"/>
+        <Label Content="itProger" Margin="377,30,264,495" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black" />
+        <Label Content="Онлайн школа программирования&#xD;&#xA;" HorizontalAlignment="Left" Margin="372,84,0,0" VerticalAlignment="Top" Width="268" Height="31" FontSize="16"/>
+        <Label Content="и сообщество программистов" HorizontalAlignment="Left" Margin="397,105,0,0" VerticalAlignment="Top" Width="185" FontStyle="Italic" Height="23"/>
+        
     </Grid>
 </Page>

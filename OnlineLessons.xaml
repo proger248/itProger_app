@@ -1,0 +1,22 @@
+﻿<Page x:Class="itproger.OnlineLessons"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:itproger"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="OnlineLessons" Height="600" Width="800">
+
+    <Grid Background="white">
+        <Button Name="button_to_home_page" Content="На главную" Click="Button_to_home_page_Click" HorizontalAlignment="Left" Margin="37,23,0,0" VerticalAlignment="Top" Width="129" Height="37"/>
+        <Label Content="Онлайн обучение" HorizontalAlignment="Left" Margin="257,23,0,0" VerticalAlignment="Top" Width="226" Height="46" FontWeight="Bold" FontSize="24"/>
+
+        <TextBlock Text="В этом разделе представлены различные онлайн уроки. Все уроки отсортированны по категориям" HorizontalAlignment="Left" Margin="163,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" Height="64" FontFamily="Showcard Gothic" FontSize="16" TextDecorations="{x:Null}" FontStyle="Italic" FontWeight="Bold" Cursor="Help"/>
+        <Label Content="Выберите язык программирования" HorizontalAlignment="Left" Margin="86,167,0,0" VerticalAlignment="Top" Width="326" Height="37" FontFamily="Simplified Arabic Fixed" FontSize="18" FontStyle="Italic"/>
+        <Button Content="HTML, CSS" Margin="37,209,659,359" />
+        <Button Name="js_button" Content="JS" Click="Js_button_Click" Margin="200,209,496,359" />
+        <Button Content="Python" Margin="354,209,342,359" />
+        <Button Content="C#" Margin="505,209,191,359" />
+    </Grid>
+</Page>

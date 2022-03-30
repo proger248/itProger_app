@@ -10,6 +10,16 @@
 
     <Grid Background="white">
         <Button Name="button_to_home_page" Content="На главную" Click="Button_to_home_page_Click" HorizontalAlignment="Left" Margin="37,23,0,0" VerticalAlignment="Top" Width="129" Height="37"/>
+        <Label Content="Мы обучаем следующим технологиям:" HorizontalAlignment="Left" Margin="257,23,0,0" VerticalAlignment="Top" Width="484" Height="51" FontWeight="Bold" FontSize="24"/>
+        <Label Content="Frontend разработка" HorizontalAlignment="Left" Margin="96,105,0,0" VerticalAlignment="Top" FontStyle="Italic" FontFamily="Rockwell Extra Bold" Height="33" Width="246" FontSize="20"/>
+        <Label Content="HTML" HorizontalAlignment="Left" Margin="96,143,0,0" VerticalAlignment="Top" FontStyle="Italic" FontFamily="Yu Mincho Demibold" FontSize="16"/>
+        <Label Content="CSS" HorizontalAlignment="Left" Margin="96,177,0,0" VerticalAlignment="Top" FontSize="16" FontStyle="Italic" FontFamily="Yu Mincho Demibold"/>
+        <Label Content="JS" HorizontalAlignment="Left" Margin="96,211,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.158,-0.125" FontSize="16" FontFamily="Yu Mincho Demibold" FontStyle="Italic"/>
 
+        <Label Content="Backend разработка" HorizontalAlignment="Left" Margin="367,105,0,0" VerticalAlignment="Top" FontStyle="Italic" FontFamily="Rockwell Extra Bold" Height="33" Width="240" FontSize="20"/>
+        <Label Content="Python" HorizontalAlignment="Left" Margin="367,143,0,0" VerticalAlignment="Top" FontStyle="Italic" FontFamily="Yu Mincho Demibold" FontSize="16"/>
+
+        <Label Content="Разработка ПО" HorizontalAlignment="Left" Margin="96,303,0,0" VerticalAlignment="Top" FontStyle="Italic" FontFamily="Rockwell Extra Bold" Height="33" Width="164" FontSize="20"/>
+        <Label Content="C#" HorizontalAlignment="Left" Margin="96,341,0,0" VerticalAlignment="Top" FontStyle="Italic" FontFamily="Yu Mincho Demibold" FontSize="16"/>
     </Grid>
 </Page>

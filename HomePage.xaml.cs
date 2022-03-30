@@ -26,15 +26,19 @@ namespace itproger
 			InitializeComponent();
 		}
 
-		private void Button_to_youtube_Click(object sender, RoutedEventArgs e)
-		{
-			Process.Start("https://www.youtube.com/channel/UCytDRVLeQB3ZuKnk5pqzHOw");
-			MessageBox.Show("Ожидание открытия браузера...");
-		}
-
 		private void Button_to_lessons_Click(object sender, RoutedEventArgs e)
 		{
 			NavigationService.Navigate(new lessons());
+		}
+
+		private void Contacts_button_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new contacts());
+		}
+
+		private void Online_lessons_button_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new OnlineLessons());
 		}
 	}
 }
