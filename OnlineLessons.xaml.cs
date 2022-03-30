@@ -34,5 +34,20 @@ namespace itproger
 		{
 			NavigationService.Navigate(new js_view());
 		}
+
+		private void Cs_button_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new cs_view());
+		}
+
+		private void Html_button_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new html_view());
+		}
+
+		private void Python_button_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new python_view());
+		}
 	}
 }

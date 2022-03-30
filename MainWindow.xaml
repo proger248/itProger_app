@@ -6,6 +6,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:itproger"
         mc:Ignorable="d"
-        Title="itProger app" Height="600" Width="800" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow" WindowStartupLocation="CenterScreen">
+        Title="itProger app" Height="600" Width="800" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow" WindowStartupLocation="CenterScreen" Icon="images/logo.jpg">
     <Frame Name="MainFrame" Background="white" NavigationUIVisibility="Hidden" />
 </Window>

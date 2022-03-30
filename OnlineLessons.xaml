@@ -14,9 +14,9 @@
 
         <TextBlock Text="В этом разделе представлены различные онлайн уроки. Все уроки отсортированны по категориям" HorizontalAlignment="Left" Margin="163,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" Height="64" FontFamily="Showcard Gothic" FontSize="16" TextDecorations="{x:Null}" FontStyle="Italic" FontWeight="Bold" Cursor="Help"/>
         <Label Content="Выберите язык программирования" HorizontalAlignment="Left" Margin="86,167,0,0" VerticalAlignment="Top" Width="326" Height="37" FontFamily="Simplified Arabic Fixed" FontSize="18" FontStyle="Italic"/>
-        <Button Content="HTML, CSS" Margin="37,209,659,359" />
+        <Button Name="html_button" Content="HTML, CSS" Click="Html_button_Click" Margin="37,209,659,359" />
         <Button Name="js_button" Content="JS" Click="Js_button_Click" Margin="200,209,496,359" />
-        <Button Content="Python" Margin="354,209,342,359" />
-        <Button Content="C#" Margin="505,209,191,359" />
+        <Button Name="python_button" Content="Python" Click="Python_button_Click" Margin="354,209,342,359" />
+        <Button Name="cs_button" Content="C#" Click="Cs_button_Click" Margin="505,209,191,359" />
     </Grid>
 </Page>

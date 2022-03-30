@@ -69,8 +69,20 @@
     <Compile Include="contacts.xaml.cs">
       <DependentUpon>contacts.xaml</DependentUpon>
     </Compile>
+    <Compile Include="cs_view.xaml.cs">
+      <DependentUpon>cs_view.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="first_html_view.xaml.cs">
+      <DependentUpon>first_html_view.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="full_html_view.xaml.cs">
+      <DependentUpon>full_html_view.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="python_view.xaml.cs">
+      <DependentUpon>python_view.xaml</DependentUpon>
     </Compile>
     <Page Include="CocosCreator_lessons.xaml">
       <SubType>Designer</SubType>
@@ -80,7 +92,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="cs_view.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="first_html_view.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="full_html_view.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="html_view.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -100,6 +128,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="html_view.xaml.cs">
+      <DependentUpon>html_view.xaml</DependentUpon>
+    </Compile>
     <Compile Include="js_view.xaml.cs">
       <DependentUpon>js_view.xaml</DependentUpon>
     </Compile>
@@ -111,6 +142,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="OnlineLessons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="python_view.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,7 +180,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="images\logo.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="images\it.jpg" />
   </ItemGroup>
