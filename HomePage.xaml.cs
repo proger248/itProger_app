@@ -40,5 +40,10 @@ namespace itproger
 		{
 			NavigationService.Navigate(new OnlineLessons());
 		}
+
+		private void Po_button_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new PO());
+		}
 	}
 }

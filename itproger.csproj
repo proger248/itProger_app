@@ -84,6 +84,9 @@
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PO.xaml.cs">
+      <DependentUpon>PO.xaml</DependentUpon>
+    </Compile>
     <Compile Include="python_view.xaml.cs">
       <DependentUpon>python_view.xaml</DependentUpon>
     </Compile>
@@ -149,6 +152,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="OnlineLessons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PO.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -13,7 +13,8 @@
         <Label Content="Меню" HorizontalAlignment="Left" Margin="37,4,0,0" VerticalAlignment="Top" Width="122" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
         <Button Name="button_to_lessons" Content="Чему мы обучаем" Click="Button_to_lessons_Click" HorizontalAlignment="Left" Margin="26,44,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
         <Button Name="online_lessons_button"  Content="Онлайн обучение" Click="Online_lessons_button_Click" HorizontalAlignment="Left" Margin="26,103,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
-        <Button Name="contacts_button" Content="Контакты" Click="Contacts_button_Click" HorizontalAlignment="Left" Margin="26,162,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
+        <Button Name="po_button" Content="Наше ПО" Click="Po_button_Click" HorizontalAlignment="Left" Margin="26,162,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
+        <Button Name="contacts_button" Content="Контакты" Click="Contacts_button_Click" HorizontalAlignment="Left" Margin="26,223,0,0" VerticalAlignment="Top" Width="152" Height="38"/>
         
         <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="images/it.jpg" Margin="272,5,0,0"/>
         <Label Content="itProger" Margin="377,30,264,495" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black" />
