@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,24 +16,25 @@ using System.Windows.Shapes;
 
 namespace itproger
 {
-    /// <summary>
-    /// Логика взаимодействия для cs_view.xaml
-    /// </summary>
-    public partial class cs_view : Page
-    {
-        public cs_view()
-        {
-            InitializeComponent();
-        }
+	/// <summary>
+	/// Логика взаимодействия для base_cs_view.xaml
+	/// </summary>
+	public partial class base_cs_view : Page
+	{
+		public base_cs_view()
+		{
+			InitializeComponent();
+		}
 
 		private void Button_to_back_page_Click(object sender, RoutedEventArgs e)
 		{
-			NavigationService.Navigate(new OnlineLessons());
+			NavigationService.Navigate(new python_view());
 		}
 
-		private void Base_cs_button_Click(object sender, RoutedEventArgs e)
+		private void Button_to_first_lesson_MouseDown(object sender, MouseButtonEventArgs e)
 		{
-			NavigationService.Navigate(new base_cs_view());
+			Process.Start("https://youtu.be/Uf4htNNwHDk");
+			MessageBox.Show("Ожидание открытия браузера...");
 		}
 	}
 }

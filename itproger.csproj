@@ -63,6 +63,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="base_cs_view.xaml.cs">
+      <DependentUpon>base_cs_view.xaml</DependentUpon>
+    </Compile>
     <Compile Include="base_python_view.xaml.cs">
       <DependentUpon>base_python_view.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
     <Compile Include="python_view.xaml.cs">
       <DependentUpon>python_view.xaml</DependentUpon>
     </Compile>
+    <Page Include="base_cs_view.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="base_python_view.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
