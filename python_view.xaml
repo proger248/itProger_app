@@ -10,7 +10,8 @@
 
     <Grid Background="white">
         <Button Name="button_to_back_page" Content="Назад" Click="Button_to_back_page_Click" HorizontalAlignment="Left" Margin="37,23,0,0" VerticalAlignment="Top" Width="129" Height="37"/>
+        <Label Content="Выберите раздел" HorizontalAlignment="Left" Margin="255,60,0,0" VerticalAlignment="Top" Width="181" Height="37" FontFamily="Simplified Arabic Fixed" FontSize="18" FontStyle="Italic"/>
 
-        <Label Content="Здесь пока разделов нет" HorizontalAlignment="Left" Margin="257,23,0,0" VerticalAlignment="Top" Width="307" Height="46" FontWeight="Bold" FontSize="24"/>
+        <Button Name="base_python_button" Content="Основы языка" Click="Base_python_button_Click" Margin="120,130,536,438" />
     </Grid>
 </Page>

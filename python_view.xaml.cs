@@ -29,5 +29,10 @@ namespace itproger
 		{
 			NavigationService.Navigate(new OnlineLessons());
 		}
+
+		private void Base_python_button_Click(object sender, RoutedEventArgs e)
+		{
+			NavigationService.Navigate(new base_python_view());
+		}
 	}
 }
